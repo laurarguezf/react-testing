@@ -1,6 +1,6 @@
 import { describe, test, expect } from 'vitest';
 import { render, screen, fireEvent, act } from '@testing-library/react';
-import { Contador } from './';
+import { Contador } from './Contador';
 
 describe('<Contador />', () => {
     test('Debería mostrar el valor inicial', () => {
