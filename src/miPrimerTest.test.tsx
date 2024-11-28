@@ -2,7 +2,7 @@ import { describe, test, expect } from 'vitest';
 
 describe('Mi primer test', () => {
     test('la suma de dos números', () => {
-        const suma = (a, b) => a + b;
+        const suma = (a: number, b: number) => a + b;
         const resultado = suma(2, 3);
         expect(resultado).toBe(5);
     })
